@@ -67,5 +67,9 @@
     input[type=number] {text-align: right;}
 
     body {
-        background-color: sandybrown
-    };
+        background-color: sandybrown;
+    }
+
+    button {
+        color: seagreen;
+    }
