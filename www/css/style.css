@@ -60,6 +60,8 @@
     #btnC {
         font-size: 20px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        background-color: rgb(236, 236, 93);
+        color:rgb(37, 37, 37);
     }
      #btnD {
         font-size: 20px;
