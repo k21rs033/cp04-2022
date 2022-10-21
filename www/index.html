@@ -47,6 +47,7 @@
 
             init();
         });
+        
 
         function rgbToColor(r, g, b) {
             return "#" + hex02(r) + hex02(g) + hex02(b);
@@ -218,7 +219,14 @@
         }
 
         function btnDClick(e) {
-            
+             var img = new Image();
+            img.src = "jikantobu.png";
+            img.onload = function() {
+                ctx.drawImage(img, 600, 300, 200, 300);
+            };
+            var audio = new Audio();
+            audio.src = "pin.wav";
+            audio.play();
 
 
         }
