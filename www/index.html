@@ -219,11 +219,7 @@
         }
 
         function btnDClick(e) {
-             var img = new Image();
-            img.src = "jikantobu.png";
-            img.onload = function() {
-                ctx.drawImage(img, 600, 300, 200, 300);
-            };
+            
             var audio = new Audio();
             audio.src = "pin.wav";
             audio.play();
@@ -267,7 +263,7 @@
     <button id="btnA">Start</button>
     <button id="btnB">Stop</button>
     <button id="btnC">Set</button>
-    <button id="btnD">Image</button>
+    <button id="btnD">Sound</button>
     <input type="number" id="minute" value=0>
     <input type="number" id="second" value=15>
 </body>
