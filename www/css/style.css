@@ -53,11 +53,17 @@
     #btnB {
         font-size: 20px;
         position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        background-color: rgb(228, 39, 39);
+        color:rgb(8, 8, 8);
     }
 
     #btnC {
         font-size: 20px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
+    }
+     #btnD {
+        font-size: 20px;
+        position:absolute; top:500px; left:70%; width:28%; height:60px; 
     }
     
     #minute {
